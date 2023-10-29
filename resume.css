@@ -1,0 +1,92 @@
+*{
+    margin:0;
+}
+.parent{
+    width:90%;
+    min-height: 800px;
+    background-color: white;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows:1fr 1fr 1fr 1fr;
+    grid-column-gap:10px;
+    grid-row-gap:10px;
+}
+.child{
+    background-color:wheat;
+    border:1px solid black;
+}
+.parent,.child:nth-child(1){
+    grid-row-start:1;
+    grid-row-end:4;
+}
+.parent,.child:nth-child(2){
+    grid-column-start:2;
+    grid-column-end:5;
+}
+.parent,.child:nth-child(3){
+    grid-column-start:2;
+    grid-column-end:5;
+}
+.parent,.child:nth-child(4){
+    grid-column-start:2;
+    grid-column-end:5;
+}
+.parent,.child:nth-child(1) h1{
+    padding:10px;
+   
+}
+.parent,.child:nth-child(1) h4  {
+    padding:10px;
+   
+}
+.parent,.child:nth-child(1) h2  {
+    padding:10px;
+   
+}
+.parent,.child:nth-child(1) div  {
+    padding:10px;
+   
+}
+.parent,.child:nth-child(2) h1  {
+    padding:10px;
+   
+}
+.parent,.child:nth-child(2) h4  {
+    padding:10px;
+   
+}
+.parent,.child:nth-child(2) p {
+    padding:10px;
+    margin-left: 10px;
+   
+}
+.parent,.child:nth-child(3) h1 {
+    padding:10px;
+    margin-left: 10px;
+   
+}
+.parent,.child:nth-child(3) h4{
+    padding:10px;
+    
+   
+}
+.parent,.child:nth-child(3) p{
+    padding:10px;
+    
+   
+}
+.parent,.child:nth-child(4) p{
+    padding:10px;
+    
+   
+}
+.parent,.child:nth-child(4) h1{
+    padding:10px;
+    
+   
+}
+.parent,.child:nth-child(4) h4{
+    padding:10px;
+    margin-left: 10px;
+   
+}
